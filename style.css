@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(195, 158, 230);
+    background-size: cover;
+    padding: 4px;
+    background: hsl(225, 100%, 94%);
+}
+
+body>svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.background {
+    /* background-image: url(images/pattern-background-desktop.svg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    object-fit: contains;
+    border: red solid 5px;
+    height: 100%;
+}
+
+.mainbox {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+    min-height: 300px;
+    /* gap: 0px; */
+    width: 380px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.box1>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box1 {
+    height: 200px;
+    width: 100%;
+}
+
+.box2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 450px; */
+    /* border: solid yellow 2px; */
+    /* padding-left: px;
+    padding-right: px; */
+    /* height: 60%; */
+}
+
+.line1 {
+    margin-top: 30px;
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.line2 {
+    color: hsl(224, 23%, 55%);
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    /* margin-top: -5px; */
+    margin-bottom: 12px;
+}
+
+.box3 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    /* border: solid blue 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    background: rgba(215, 212, 252, 0.301);
+    /* width: 300px; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* padding: 20px; */
+}
+
+.box4>svg {
+    /* border: solid black 2px; */
+}
+
+.box4 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.box5 {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: solid black 2px; */
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+}
+
+.line3a {
+    /* border: 2px solid red; */
+    color: hsl(223, 47%, 23%);
+    font-weight: 1000;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    margin-bottom: -5px;
+}
+
+.line3b {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(224, 23%, 55%);
+    /* border: sienna solid 2px; */
+    font-size: 12px;
+}
+
+.line3c {
+    /* border: 2px solid red; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.line4 {
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+    /* width: 360px; */
+    /* width: 90%; */
+    width: calc(100% - 40px);
+    margin-left: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 8px 8px rgba(175, 169, 237, 0.105);
+    outline: none;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.line5 {
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
