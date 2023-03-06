@@ -4,33 +4,20 @@
 
 body {
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(195, 158, 230);
     background-size: cover;
     padding: 4px;
+    position: relative;
     background: hsl(225, 100%, 94%);
 }
 
 body>svg {
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-}
-
-.background {
-    /* background-image: url(images/pattern-background-desktop.svg); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    object-fit: contains;
-    border: red solid 5px;
-    height: 100%;
 }
 
 .mainbox {
@@ -156,6 +143,7 @@ body>svg {
     color: hsl(245, 75%, 52%);
     font-weight: 600;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .line4 {
@@ -186,4 +174,5 @@ body>svg {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 40px;
     margin-top: 25px;
+    cursor: pointer;
 }
